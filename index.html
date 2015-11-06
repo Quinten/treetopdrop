@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<title>Treetop Drop</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" /> 
+		<meta name="HandheldFriendly" content="True" />
+		<script type="text/javascript" src="swfobject.js"></script>
+		<script type="text/javascript">
+			var swfVersionStr = "10.2.00";
+			<!-- xiSwfUrlStr can be used to define an express installer SWF. -->
+			var xiSwfUrlStr = "";
+			var flashvars = {};
+			var params = {};
+			params.quality = "high";
+			//params.bgcolor = "#754718";
+			//params.play = "true";
+			//params.loop = "true";
+			params.wmode = "window";
+			//params.scale = "showall";
+			params.menu = "false";
+			params.devicefont = "true";
+			//params.salign = "";
+			//params.allowscriptaccess = "sameDomain";
+			params.allowFullScreen = "true";
+			params.fullScreenOnSelection = "true";
+			var attributes = {};
+			attributes.id = "TreetopDrop";
+			attributes.name = "TreetopDrop";
+			attributes.align = "middle";
+			swfobject.createCSS("html", "height:100%; background-color: #DDD;");
+			swfobject.createCSS("body", "margin:0; padding:0; overflow:hidden; height:100%;");
+			swfobject.embedSWF(
+				"TreetopDrop.swf", "flashContent",
+				"320", "320",
+				swfVersionStr, xiSwfUrlStr,
+				flashvars, params, attributes);
+		</script>
+	</head>
+	<body bgcolor="#DDD" style="overflow:scroll">
+    <div style="width:320px;margin:0 auto;">
+		<div id="flashContent">
+			<a href="http://www.adobe.com/go/getflash">
+				<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+			</a>
+			<p>This page requires Flash Player version 10.2 or higher.</p>
+		</div>
+    </div>
+	</body>
+</html>
